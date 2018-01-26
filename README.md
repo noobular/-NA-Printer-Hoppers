@@ -1,23 +1,16 @@
--- Noobular's Addons
--- Created by : Noobular (Uncle Gremblo)
--- Last Update: 1/25/2018
+# Noobular's Addons; Printer Hoppers
 
-Thank you for purchasing my Hopper mod, it's my first for sale mod and anything people give me pushes me forward to keep creating, 
-even more since this is my first effort at creating for gmod again for years (minus my vehicle mods ;)) 
-basically you're feeding me because I never have food so thank you.
+Thank you for using the mod, if you'd like to support me since this wasn't accepted onto ScriptFodder(Gmodstore), you can send me dollas at paypal.me/noobular
 
+## Instructions
 
-INSTRUCTIONS
-INSTRUCTIONS
-INSTRUCTIONS
+## drag the addon folder onto your addons folder and let it merge everything.
 
-place the folder 'na_hopper' into garrysmod/garrysmod/addons/darkrpmodification/lua/entities
-
-You will probably want to edit the config.lua file that's included in that folder, if you have printers with large props you want to increase the collection radius
+### Edit the config!
 
 
 
-Add this into darkrpmodification\lua\darkrp_customthings\categories.lua
+### Add this into darkrpmodification\lua\darkrp_customthings\categories.lua
 
 
     DarkRP.createCategory{ 
@@ -33,7 +26,7 @@ Add this into darkrpmodification\lua\darkrp_customthings\categories.lua
 
 
 
-add the code below into darkrpmodification\lua\darkrp_customthings\entities.lua
+### add the code below into darkrpmodification\lua\darkrp_customthings\entities.lua
 
     DarkRP.createEntity("Printer Hopper", {
         ent = "na_hopper",
