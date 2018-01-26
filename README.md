@@ -4,7 +4,7 @@ Thank you for using the mod, if you'd like to support me since this wasn't accep
 
 ## Instructions
 
-## drag the addon folder onto your addons folder and let it merge everything.
+ Drag the addon folder onto your addons folder and let it merge everything.
 
 ### Edit the config!
 
@@ -23,10 +23,7 @@ Thank you for using the mod, if you'd like to support me since this wasn't accep
     }
 
 
-
-
-
-### add the code below into darkrpmodification\lua\darkrp_customthings\entities.lua
+### Add the code below into darkrpmodification\lua\darkrp_customthings\entities.lua
 
     DarkRP.createEntity("Printer Hopper", {
         ent = "na_hopper",
