@@ -21,19 +21,19 @@ Add this into darkrpmodification\lua\darkrp_customthings\categories.lua
 
 <code>DarkRP.createCategory{
     name = "Printer Hoppers", -- The name of the category.
-    categorises = "entities", -- What it categorises. MUST be one of "jobs", "entities", "shipments", "weapons", "vehicles", "ammo".</code>
+    categorises = "entities", -- What it categorises. MUST be one of "jobs", "entities", "shipments", "weapons", "vehicles", "ammo".
     startExpanded = true, -- Whether the category is expanded when you open the F4 menu.
     color = Color(50, 50, 200, 255), -- The color of the category header.
     canSee = function(ply) return true end, -- OPTIONAL: whether the player can see this category AND EVERYTHING IN IT.
     sortOrder = 50, -- OPTIONAL: With this you can decide where your category is. Low numbers to put it on top, high numbers to put it on the bottom. It's 100 by default.
-}
+}</code>
 
 
 
 
 
 add the code below into darkrpmodification\lua\darkrp_customthings\entities.lua
-
+<code>
 DarkRP.createEntity("Printer Hopper", {
     ent = "na_hopper",
     model = "models/props_combine/combine_interface001.mdl",
@@ -77,3 +77,5 @@ DarkRP.createEntity("Capacity Boost Upgrade", {
     -- customCheck = function(ply) return ply:GetUserGroup() == "donator" end,
     cmd = "buy_hopper_upg_capacity"
 })
+
+</code>
