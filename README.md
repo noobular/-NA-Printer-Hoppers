@@ -19,9 +19,9 @@ You will probably want to edit the config.lua file that's included in that folde
 
 Add this into darkrpmodification\lua\darkrp_customthings\categories.lua
 
-DarkRP.createCategory{
+<code>DarkRP.createCategory{
     name = "Printer Hoppers", -- The name of the category.
-    categorises = "entities", -- What it categorises. MUST be one of "jobs", "entities", "shipments", "weapons", "vehicles", "ammo".
+    categorises = "entities", -- What it categorises. MUST be one of "jobs", "entities", "shipments", "weapons", "vehicles", "ammo".</code>
     startExpanded = true, -- Whether the category is expanded when you open the F4 menu.
     color = Color(50, 50, 200, 255), -- The color of the category header.
     canSee = function(ply) return true end, -- OPTIONAL: whether the player can see this category AND EVERYTHING IN IT.
