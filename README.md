@@ -2,6 +2,8 @@
 
 Thank you for using the mod, if you'd like to support me since this wasn't accepted onto ScriptFodder(Gmodstore), you can send me dollas at paypal.me/noobular
 
+Does the server you play on not have this addon? Send it to your server owner ;)
+
 ## Instructions
 
  Drag the addon folder onto your addons folder and let it merge everything.
